@@ -104,6 +104,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(174, 20);
             this.textBox2.TabIndex = 6;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -114,6 +115,7 @@
             this.label3.Size = new System.Drawing.Size(127, 18);
             this.label3.TabIndex = 5;
             this.label3.Text = "search by name";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // updateclient
             // 

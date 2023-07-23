@@ -12,15 +12,21 @@ namespace WindowsFormsApp1
 {
     public partial class updateclient : Form
     {
+        string level = "";
         db fn =new db();
         public updateclient()
         {
             InitializeComponent();
         }
+        public updateclient(string level)
+        {
+            this.level = level; 
+            InitializeComponent();
+        }
 
         private void updateclient_Load(object sender, EventArgs e)
         {
-            string query = "select * from client";
+            string query = "select * from client where level='"+level+"'";
             DataSet ds = fn.getData(query);
            
 
@@ -67,6 +73,16 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("no id presnet to update the data");
             }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

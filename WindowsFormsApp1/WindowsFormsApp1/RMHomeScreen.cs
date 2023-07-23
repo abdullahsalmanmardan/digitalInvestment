@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            updateclient ad = new updateclient();
+            updateproduct ad = new updateproduct();
             ad.TopLevel = false;
             panel2.Controls.Add(ad);
 
@@ -57,7 +57,7 @@ namespace WindowsFormsApp1
 
         private void btnupdateclient_Click(object sender, EventArgs e)
         {
-            updateclient ad = new updateclient();
+            updateclient ad = new updateclient(level);
             ad.TopLevel = false;
             panel2.Controls.Add(ad);
 

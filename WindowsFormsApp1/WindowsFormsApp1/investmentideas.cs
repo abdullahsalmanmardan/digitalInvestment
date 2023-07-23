@@ -12,9 +12,18 @@ namespace WindowsFormsApp1
 {
     public partial class investmentideas : Form
     {
+        db fn=new db();
         public investmentideas()
         {
             InitializeComponent();
+        }
+
+        private void investmentideas_Load(object sender, EventArgs e)
+        {
+            string query = "select * from idea";
+            DataSet dataSet = fn.getData(query);
+
+            dataGridView1.DataSource = dataSet.Tables[0];
         }
     }
 }

@@ -9,3 +9,12 @@ G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsAp
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addclient.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addidea.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.addproduct.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ideaforclient.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.investmentideas.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.RMHomeScreen.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateclient.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateidea.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateproduct.resources

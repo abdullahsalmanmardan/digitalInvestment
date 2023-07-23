@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addclient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addclient.Designer.cs">
+      <DependentUpon>addclient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addidea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addidea.Designer.cs">
+      <DependentUpon>addidea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addproduct.Designer.cs">
+      <DependentUpon>addproduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="db.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -53,10 +71,61 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ideaforclient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ideaforclient.Designer.cs">
+      <DependentUpon>ideaforclient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="investmentideas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="investmentideas.Designer.cs">
+      <DependentUpon>investmentideas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RMHomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RMHomeScreen.Designer.cs">
+      <DependentUpon>RMHomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateclient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateclient.Designer.cs">
+      <DependentUpon>updateclient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateidea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateidea.Designer.cs">
+      <DependentUpon>updateidea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateproduct.Designer.cs">
+      <DependentUpon>updateproduct.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addclient.resx">
+      <DependentUpon>addclient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addidea.resx">
+      <DependentUpon>addidea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addproduct.resx">
+      <DependentUpon>addproduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ideaforclient.resx">
+      <DependentUpon>ideaforclient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="investmentideas.resx">
+      <DependentUpon>investmentideas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +136,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RMHomeScreen.resx">
+      <DependentUpon>RMHomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateclient.resx">
+      <DependentUpon>updateclient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateidea.resx">
+      <DependentUpon>updateidea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateproduct.resx">
+      <DependentUpon>updateproduct.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

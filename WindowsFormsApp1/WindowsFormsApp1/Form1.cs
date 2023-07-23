@@ -36,7 +36,11 @@ namespace WindowsFormsApp1
 
             if (ds.Tables[0].Rows.Count > 0)
             {
-                MessageBox.Show(ds.Tables[0].Rows[0]["level"].ToString());
+                RMHomeScreen ad = new RMHomeScreen();
+                
+
+                ad.BringToFront();
+                ad.Show();
             }
             else
             {

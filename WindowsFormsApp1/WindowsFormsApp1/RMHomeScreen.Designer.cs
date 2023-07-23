@@ -30,14 +30,14 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnaddclient = new System.Windows.Forms.Button();
+            this.btnupdateclient = new System.Windows.Forms.Button();
+            this.btnaddproduct = new System.Windows.Forms.Button();
+            this.btnupdateProduct = new System.Windows.Forms.Button();
+            this.btnaddidea = new System.Windows.Forms.Button();
+            this.btnupdateidea = new System.Windows.Forms.Button();
+            this.btninvestmentidea = new System.Windows.Forms.Button();
+            this.btnideaforclient = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -45,14 +45,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnideaforclient);
+            this.panel1.Controls.Add(this.btninvestmentidea);
+            this.panel1.Controls.Add(this.btnupdateidea);
+            this.panel1.Controls.Add(this.btnaddidea);
+            this.panel1.Controls.Add(this.btnupdateProduct);
+            this.panel1.Controls.Add(this.btnaddproduct);
+            this.panel1.Controls.Add(this.btnupdateclient);
+            this.panel1.Controls.Add(this.btnaddclient);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
@@ -70,86 +70,86 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Digitilized Investment Ideas";
             // 
-            // button1
+            // btnaddclient
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(4, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(239, 32);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Add Client";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnaddclient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaddclient.Location = new System.Drawing.Point(4, 36);
+            this.btnaddclient.Name = "btnaddclient";
+            this.btnaddclient.Size = new System.Drawing.Size(239, 32);
+            this.btnaddclient.TabIndex = 1;
+            this.btnaddclient.Text = "Add Client";
+            this.btnaddclient.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnupdateclient
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(4, 92);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(239, 32);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Update Client";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnupdateclient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdateclient.Location = new System.Drawing.Point(4, 92);
+            this.btnupdateclient.Name = "btnupdateclient";
+            this.btnupdateclient.Size = new System.Drawing.Size(239, 32);
+            this.btnupdateclient.TabIndex = 2;
+            this.btnupdateclient.Text = "Update Client";
+            this.btnupdateclient.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnaddproduct
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(4, 156);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(239, 32);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Add Product";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnaddproduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaddproduct.Location = new System.Drawing.Point(4, 156);
+            this.btnaddproduct.Name = "btnaddproduct";
+            this.btnaddproduct.Size = new System.Drawing.Size(239, 32);
+            this.btnaddproduct.TabIndex = 3;
+            this.btnaddproduct.Text = "Add Product";
+            this.btnaddproduct.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnupdateProduct
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(4, 217);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(239, 32);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Update Product";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnupdateProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdateProduct.Location = new System.Drawing.Point(4, 217);
+            this.btnupdateProduct.Name = "btnupdateProduct";
+            this.btnupdateProduct.Size = new System.Drawing.Size(239, 32);
+            this.btnupdateProduct.TabIndex = 4;
+            this.btnupdateProduct.Text = "Update Product";
+            this.btnupdateProduct.UseVisualStyleBackColor = true;
+            this.btnupdateProduct.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btnaddidea
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(4, 284);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(239, 32);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Add Idea";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnaddidea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaddidea.Location = new System.Drawing.Point(4, 284);
+            this.btnaddidea.Name = "btnaddidea";
+            this.btnaddidea.Size = new System.Drawing.Size(239, 32);
+            this.btnaddidea.TabIndex = 5;
+            this.btnaddidea.Text = "Add Idea";
+            this.btnaddidea.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnupdateidea
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(4, 343);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(239, 32);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "Update Idea";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnupdateidea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdateidea.Location = new System.Drawing.Point(4, 343);
+            this.btnupdateidea.Name = "btnupdateidea";
+            this.btnupdateidea.Size = new System.Drawing.Size(239, 32);
+            this.btnupdateidea.TabIndex = 6;
+            this.btnupdateidea.Text = "Update Idea";
+            this.btnupdateidea.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btninvestmentidea
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(4, 402);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(239, 32);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "Investment Ideas";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btninvestmentidea.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btninvestmentidea.Location = new System.Drawing.Point(4, 402);
+            this.btninvestmentidea.Name = "btninvestmentidea";
+            this.btninvestmentidea.Size = new System.Drawing.Size(239, 32);
+            this.btninvestmentidea.TabIndex = 7;
+            this.btninvestmentidea.Text = "Investment Ideas";
+            this.btninvestmentidea.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnideaforclient
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(4, 459);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(239, 32);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "Ideas for client";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnideaforclient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnideaforclient.Location = new System.Drawing.Point(4, 459);
+            this.btnideaforclient.Name = "btnideaforclient";
+            this.btnideaforclient.Size = new System.Drawing.Size(239, 32);
+            this.btnideaforclient.TabIndex = 8;
+            this.btnideaforclient.Text = "Ideas for client";
+            this.btnideaforclient.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -167,6 +167,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "RMHomeScreen";
             this.Text = "RMHomeScreen";
+            this.Load += new System.EventHandler(this.RMHomeScreen_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -177,14 +178,14 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnaddclient;
+        private System.Windows.Forms.Button btninvestmentidea;
+        private System.Windows.Forms.Button btnupdateidea;
+        private System.Windows.Forms.Button btnaddidea;
+        private System.Windows.Forms.Button btnupdateProduct;
+        private System.Windows.Forms.Button btnaddproduct;
+        private System.Windows.Forms.Button btnupdateclient;
+        private System.Windows.Forms.Button btnideaforclient;
         private System.Windows.Forms.Panel panel2;
     }
 }

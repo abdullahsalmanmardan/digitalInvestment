@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Shaheen_Taylor
+namespace WindowsFormsApp1
 {
     public class db
     {
         protected SqlConnection getConnection()
         {
-            string path = Path.GetFullPath(Environment.CurrentDirectory);
-            string databaseName = "shaheenTaylordb.mdf";
-            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=" + path + @"\" + databaseName + ";Integrated Security=True");
+           
+            SqlConnection con = new SqlConnection(@"Data Source=.;Initial Catalog=digitalInvestment;Integrated Security=True");
             return con;
         }
 

@@ -12,6 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        db fn =new db();    
         public Form1()
         {
             InitializeComponent();
@@ -26,7 +27,13 @@ namespace WindowsFormsApp1
         // silver rm can see silver client
         private void button1_Click(object sender, EventArgs e)
         {
+            string username = txtusername.Text;
+            string password = txtpassword.Text;
 
+            string query = "select level from rms where username='" + username + "' and password='" + password + "'";
+            DataSet ds = fn.getData(query);
+
+            MessageBox.Show(ds.Tables[0].ToString());
         }
     }
 }

@@ -27,13 +27,21 @@ namespace WindowsFormsApp1
         // silver rm can see silver client
         private void button1_Click(object sender, EventArgs e)
         {
+            // getting the data from the gui 
             string username = txtusername.Text;
             string password = txtpassword.Text;
-
+            // comparing the gui data with the database data
             string query = "select level from rms where username='" + username + "' and password='" + password + "'";
             DataSet ds = fn.getData(query);
 
-            MessageBox.Show(ds.Tables[0].ToString());
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                MessageBox.Show(ds.Tables[0].Rows[0]["level"].ToString());
+            }
+            else
+            {
+                MessageBox.Show("invalid credentials");
+            }
         }
     }
 }

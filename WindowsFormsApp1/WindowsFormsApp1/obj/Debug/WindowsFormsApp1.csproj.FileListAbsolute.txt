@@ -8,3 +8,4 @@ G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsAp
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources

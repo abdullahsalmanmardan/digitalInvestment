@@ -49,14 +49,16 @@ namespace WindowsFormsApp1
                     if (p[k] == ideaProduct)
                     {
                         cid.Add(cid1);
-                        MessageBox.Show(cid1.ToString());
+                       
                     }
                     products.Add(p[k]);
                 }
                
-               
-                
             }
+            string sql="SELECT * FROM client WHERE cid ='" + cid + "'";
+          //  string qui= "select * from client where cid IN '" + cid + "'";
+            DataSet dssss=fn.getData(sql);
+            MessageBox.Show(dssss.Tables[0].Rows.Count.ToString());
         }
     }
 }

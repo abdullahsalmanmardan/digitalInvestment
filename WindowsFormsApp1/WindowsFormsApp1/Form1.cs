@@ -16,5 +16,17 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        // this is the login button , each rm will login here to do further operations
+        // because i have given level to rms and clients so that specific rm can only see specifc clients
+        // silver rm can see silver client
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

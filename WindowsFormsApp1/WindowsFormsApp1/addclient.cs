@@ -46,7 +46,14 @@ namespace WindowsFormsApp1
             string product = "";            
             for(int i=0;i< checkedListBox1.Items.Count;i++)
             {
-                product = product + checkedListBox1.Items[i].ToString() + ",";
+                if(i==checkedListBox1.Items.Count-1)
+                {
+                    product = product + checkedListBox1.Items[i].ToString();
+                }
+                else
+                {
+                    product = product + checkedListBox1.Items[i].ToString() + ",";
+                }
             }
 
             string query = "insert into client (name,email,level,clientsummary,country) values('" + name + "','" + email + "','" + level + "','" + product + "','" + country + "')";

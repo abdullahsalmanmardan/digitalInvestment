@@ -91,6 +91,12 @@
     <Compile Include="RMHomeScreen.Designer.cs">
       <DependentUpon>RMHomeScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuitableClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuitableClients.Designer.cs">
+      <DependentUpon>SuitableClients.cs</DependentUpon>
+    </Compile>
     <Compile Include="updateclient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
     </Compile>
     <EmbeddedResource Include="RMHomeScreen.resx">
       <DependentUpon>RMHomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuitableClients.resx">
+      <DependentUpon>SuitableClients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="updateclient.resx">
       <DependentUpon>updateclient.cs</DependentUpon>

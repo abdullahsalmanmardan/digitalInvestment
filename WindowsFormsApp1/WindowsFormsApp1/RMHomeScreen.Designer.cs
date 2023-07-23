@@ -79,6 +79,7 @@
             this.btnaddclient.TabIndex = 1;
             this.btnaddclient.Text = "Add Client";
             this.btnaddclient.UseVisualStyleBackColor = true;
+            this.btnaddclient.Click += new System.EventHandler(this.btnaddclient_Click);
             // 
             // btnupdateclient
             // 
@@ -89,6 +90,7 @@
             this.btnupdateclient.TabIndex = 2;
             this.btnupdateclient.Text = "Update Client";
             this.btnupdateclient.UseVisualStyleBackColor = true;
+            this.btnupdateclient.Click += new System.EventHandler(this.btnupdateclient_Click);
             // 
             // btnaddproduct
             // 
@@ -99,6 +101,7 @@
             this.btnaddproduct.TabIndex = 3;
             this.btnaddproduct.Text = "Add Product";
             this.btnaddproduct.UseVisualStyleBackColor = true;
+            this.btnaddproduct.Click += new System.EventHandler(this.btnaddproduct_Click);
             // 
             // btnupdateProduct
             // 
@@ -120,6 +123,7 @@
             this.btnaddidea.TabIndex = 5;
             this.btnaddidea.Text = "Add Idea";
             this.btnaddidea.UseVisualStyleBackColor = true;
+            this.btnaddidea.Click += new System.EventHandler(this.btnaddidea_Click);
             // 
             // btnupdateidea
             // 
@@ -130,6 +134,7 @@
             this.btnupdateidea.TabIndex = 6;
             this.btnupdateidea.Text = "Update Idea";
             this.btnupdateidea.UseVisualStyleBackColor = true;
+            this.btnupdateidea.Click += new System.EventHandler(this.btnupdateidea_Click);
             // 
             // btninvestmentidea
             // 
@@ -140,6 +145,7 @@
             this.btninvestmentidea.TabIndex = 7;
             this.btninvestmentidea.Text = "Investment Ideas";
             this.btninvestmentidea.UseVisualStyleBackColor = true;
+            this.btninvestmentidea.Click += new System.EventHandler(this.btninvestmentidea_Click);
             // 
             // btnideaforclient
             // 
@@ -150,6 +156,7 @@
             this.btnideaforclient.TabIndex = 8;
             this.btnideaforclient.Text = "Ideas for client";
             this.btnideaforclient.UseVisualStyleBackColor = true;
+            this.btnideaforclient.Click += new System.EventHandler(this.btnideaforclient_Click);
             // 
             // panel2
             // 

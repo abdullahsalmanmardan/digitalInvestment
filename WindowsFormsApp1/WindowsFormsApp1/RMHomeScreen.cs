@@ -12,10 +12,17 @@ namespace WindowsFormsApp1
 {
     public partial class RMHomeScreen : Form
     {
+        string level = "";
         db fn=new db();
         public RMHomeScreen()
         {
             InitializeComponent();
+        }
+
+        public RMHomeScreen(string level)
+        {
+            InitializeComponent();
+            this.level = level;
         }
 
         private void button4_Click(object sender, EventArgs e)

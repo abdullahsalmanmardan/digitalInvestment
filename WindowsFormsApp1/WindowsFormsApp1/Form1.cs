@@ -36,7 +36,9 @@ namespace WindowsFormsApp1
 
             if (ds.Tables[0].Rows.Count > 0)
             {
-                RMHomeScreen ad = new RMHomeScreen();
+
+                string level = ds.Tables[0].Rows[0]["level"].ToString();
+                RMHomeScreen ad = new RMHomeScreen(level);
                 
 
                 ad.BringToFront();

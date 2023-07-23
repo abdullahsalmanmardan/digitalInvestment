@@ -18,3 +18,4 @@ G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsAp
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateclient.resources
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateidea.resources
 G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateproduct.resources
+G:\digital investment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.updateClientData.resources

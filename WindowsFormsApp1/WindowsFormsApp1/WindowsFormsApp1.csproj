@@ -97,6 +97,12 @@
     <Compile Include="updateclient.Designer.cs">
       <DependentUpon>updateclient.cs</DependentUpon>
     </Compile>
+    <Compile Include="updateClientData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateClientData.Designer.cs">
+      <DependentUpon>updateClientData.cs</DependentUpon>
+    </Compile>
     <Compile Include="updateidea.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="updateclient.resx">
       <DependentUpon>updateclient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateClientData.resx">
+      <DependentUpon>updateClientData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="updateidea.resx">
       <DependentUpon>updateidea.cs</DependentUpon>

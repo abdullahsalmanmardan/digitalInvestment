@@ -37,28 +37,32 @@ namespace WindowsFormsApp1
             string query = "select cid,clientSummary from client";
             DataSet dataSet = fn.getData(query);
             List<string> products = new List<string>();
-            List<string> cid = new List<string>();
+            List<int> cid = new List<int>();
 
             for (int i = 0; i < dataSet.Tables[0].Rows.Count; i++)
             {
                 string cid1 = dataSet.Tables[0].Rows[i]["cid"].ToString();
+                
                 string product = dataSet.Tables[0].Rows[i]["clientsummary"].ToString();
                 string[] p= product.Split(',');
                 for(int k=0; k<p.Length; k++)
                 {
                     if (p[k] == ideaProduct)
                     {
-                        cid.Add(cid1);
+                        
+                        cid.Add(Int32.Parse(cid1));
                        
                     }
                     products.Add(p[k]);
                 }
                
             }
-            string sql="SELECT * FROM client WHERE cid ='" + cid + "'";
-          //  string qui= "select * from client where cid IN '" + cid + "'";
-            DataSet dssss=fn.getData(sql);
+
+            string qui= "select * from client where cid IN (" + string.Join(",", (List<int>)cid) + ")";
+            DataSet dssss=fn.getData(qui);
             MessageBox.Show(dssss.Tables[0].Rows.Count.ToString());
+
+            dataGridView1.DataSource= dssss.Tables[0];  
         }
     }
 }
